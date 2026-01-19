@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float h,b,p;
+    cout<<"\n enter the value of b & p : \n";
+    cin>>b>>p;
+    h=sqrt(b*b+p*p);
+    cout<<"\n the of hypotenouse is :\n"<<h;
+    return 0;
+}
