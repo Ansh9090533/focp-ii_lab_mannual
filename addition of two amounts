@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float cash1,cash2;
+    cout<<"\n enter the value of cash 1 & cash 2 \n";
+    cin>>cash1>>cash2;
+    cout<<"the value of both the cashes is :\n"<<cash1+cash2;
+    return 0;
+}
