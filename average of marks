@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float m1,m2,m3;
+    cout<<"\n enter the value of m1,m2,m3 \n";
+    cin>>m1>>m2>>m3;
+    int a;
+    a=(m1+m2+m3)/3;
+    cout<<"\n the average of marks is :"<<a;
+    return 0;
+}
