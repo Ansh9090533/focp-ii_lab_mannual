@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int p;
+    float r,t,s;
+    cout<<"\n enter the value of p r & t :";
+    cin>>p>>r>>t;
+    s=(p*r*t)/100;
+    cout<<"\n the value of simple interest :\n"<<s;
+    return 0;
+}
