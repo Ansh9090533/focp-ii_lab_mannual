@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float b,h,a;
+    cout<<"\n enter the value of b & h : \n";
+    cin>>b>>h;
+    a=0.5*b*h;
+    cout<<"\n the value of area of right angled triangle is :\n"<<a;
+    return 0;
+}
