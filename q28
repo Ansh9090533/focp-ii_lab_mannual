@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x[5];
+
+    for(int i = 0; i < 5; i++) {
+        cout << "Enter number " << i + 1 << " : ";
+        cin >> x[i];
+    }
+
+    int count_odd = 0, count_even = 0;
+    int sum_odd = 0, sum_even = 0;
+
+    for(int i = 0; i < 5; i++) {
+        if(x[i] % 2 != 0) {
+            count_odd++;
+            sum_odd += x[i];
+        } else {
+            count_even++;
+            sum_even += x[i];
+        }
+    }
+
+    cout << "\nCount of odd numbers  : " << count_odd;
+    cout << "\nCount of even numbers : " << count_even;
+    cout << "\nSum of odd numbers    : " << sum_odd;
+    cout << "\nSum of even numbers   : " << sum_even;
+
+    return 0;
+}
