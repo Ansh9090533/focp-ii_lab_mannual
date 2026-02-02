@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main (){
+    float x;
+    int y[10];
+    cout<<"enter the prices of items \n";
+    for(int i=0;i<10;i++){
+        cout<<" price of "<<i+1;
+        cout<<" item :";
+        cin>>y[i];
+    }
+    int max=y[0];
+    for(int i=0;i<10;i++){
+    if(max<y[i])
+    max=y[i];
+    }
+    cout<<"the maximum price is :"<<max;
+    return 0;
+}
